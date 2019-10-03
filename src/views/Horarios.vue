@@ -17,8 +17,7 @@
 </template>
 
 <script>
-import Pagination from '../components/Pagination.vue'
 export default {
-    Pagination
+
 }
 </script>
