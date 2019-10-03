@@ -67,13 +67,5 @@
         sliding: null
       }
     },
-    methods: {
-      onSlideStart(slide) {
-        this.sliding = true
-      },
-      onSlideEnd(slide) {
-        this.sliding = false
-      }
-    }
   }
 </script>

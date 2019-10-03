@@ -1,5 +1,5 @@
 <template>
     <div>
-        <h1>Asistencias</h1>  
+        <h1>Eventos Culturales</h1>  
     </div>
 </template>

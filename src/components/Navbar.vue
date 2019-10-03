@@ -10,13 +10,13 @@
 
     <b-nav-item to="/inicio" exact exact-active-class="active" >
     Inicio</b-nav-item>
-    <b-nav-item to="/usuario:id" exact exact-active-class="active">
-    Usuario</b-nav-item>
+    <b-nav-item to="/estudiante:id" exact exact-active-class="active">
+    Estudiante</b-nav-item>
     <b-nav-item to="/horarios" exact exact-active-class="active">
     Horarios </b-nav-item>
-    <b-nav-item to="asistencias" exact exact-active-class="active">
-    Asistencias </b-nav-item>
-    <b-nav-item to="sedes" exact exact-active-class="active">
+    <b-nav-item to="/culturales" exact exact-active-class="active">
+    Eventos Culturales </b-nav-item>
+    <b-nav-item to="/sedes" exact exact-active-class="active">
     Sedes</b-nav-item>
 
   </b-nav>

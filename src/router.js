@@ -1,10 +1,11 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Inicio from "./views/Inicio.vue";
-import Usuario from "./views/Usuario.vue";
 import Horarios from "./views/Horarios.vue";
-import Asistencias from "./views/Asistencias.vue";
+import Culturales from "./views/Culturales.vue";
 import Sedes from "./views/Sedes.vue";
+
+import Estudiante from "./views/Estudiante.vue";
 
 Vue.use(Router);
 
@@ -13,17 +14,22 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
+      path: "/",
+      name: "default",
+      component: Inicio
+    },
+    {
       path: "/inicio",
       name: "Inicio",
       component: Inicio
     },
     {
-      path: "/usuario:id",
-      name: "Usuario",
-      component: Usuario
+      path: "/estudiante:id",
+      name: "Estudiante",
+      component: Estudiante
     },
     { path: "/horarios", name: "Horarios", component: Horarios },
-    { path: "/asistencias", name: "Asistencias", component: Asistencias },
+    { path: "/culturales", name: "Eventos Culturales", component: Culturales },
     { path: "/sedes", name: "Sedes", component: Sedes }
   ]
 });
